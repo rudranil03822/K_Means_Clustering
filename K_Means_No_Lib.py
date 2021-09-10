@@ -40,7 +40,6 @@ class Centroid:
             C[i]=MD[i].index(min(MD[i]))#we found the minimum distance and stored the index of the column in a vector C
 
           Y={}
-          centroid_Corr = np.asarray(centroid_Corr)
           for j in range(k):
             Y[j]=[]
           for j in range(row):
